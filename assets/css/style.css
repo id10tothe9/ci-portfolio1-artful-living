@@ -74,11 +74,12 @@ header {
 /*** Main Section ***/
 .main-section-heading {
     margin-left: 5vw;
+    margin-bottom: 10vh;
 }
 
 .main-section-message {
     width: 50%;
-    margin: 50px auto;
+    margin: 0 auto 10vh auto;
     text-align: center;
 }
 
