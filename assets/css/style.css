@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+3:wght@450&display=swap');
 
 
+/* ----------------------------------------------------------- */
 /*** Generral Styling Of Website ***/
 * {
     margin: 0;
@@ -16,6 +17,7 @@ body {
 }
 
 
+/* ----------------------------------------------------------- */
 /*** Headings ***/
 h1,
 h2,
@@ -25,6 +27,7 @@ h3 {
 }
 
 
+/* ----------------------------------------------------------- */
 /*** Hero Image And Page Title ***/
 header {
     /* fixate header at top of the page */
@@ -55,6 +58,7 @@ header {
 }
 
 
+/* ----------------------------------------------------------- */
 /*** Navigation Bar ***/
 #nav-bar {
     list-style-type: none;
@@ -71,6 +75,7 @@ header {
 }
 
 
+/* ----------------------------------------------------------- */
 /*** Main Section ***/
 .page-heading {
     margin-left: 5vw;
@@ -91,6 +96,7 @@ header {
 }
 
 
+/* ----------------------------------------------------------- */
 /*** Gallery Sections ***/
 .images-collage img {
     width: 100%;
@@ -98,9 +104,28 @@ header {
 
 .images-collage {
     column-count: 2;
+    column-gap: 0.5vw;
+    padding: 0.5vw;
+    padding-bottom: 0;
+}
+
+.gallery-section {
+    width: 80%;
+    margin: 0 auto 10vh auto;
+    border: 2px solid #292a2c;
+}
+
+.gallery-section p {
+    /* padding: 0.5vh auto 0.5vh 2vw; */
+    padding-left: 2vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border: 1px solid #616365;
+    background-color: rgba(11, 11, 219, 0.429);
 }
 
 
+/* ----------------------------------------------------------- */
 /*** Footer ***/
 footer {
     width: 100%;
@@ -112,6 +137,7 @@ footer {
 }
 
 
+/* ----------------------------------------------------------- */
 /*** Responsive Design ***/
 @media screen and (min-width: 800px) {
     .images-collage {
