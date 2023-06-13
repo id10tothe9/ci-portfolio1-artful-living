@@ -91,6 +91,16 @@ header {
 }
 
 
+/*** Gallery Sections ***/
+.images-collage img {
+    width: 100%;
+}
+
+.images-collage {
+    column-count: 2;
+}
+
+
 /*** Footer ***/
 footer {
     width: 100%;
@@ -99,4 +109,19 @@ footer {
     padding: 1vh;
     background: #274799;
     margin-top: 5vh;
+}
+
+
+/*** Responsive Design ***/
+@media screen and (min-width: 800px) {
+    .images-collage {
+        column-count: 3;
+    }
+}
+
+
+@media screen and (min-width: 950px) {
+    .images-collage {
+        column-count: 4;
+    }
 }
