@@ -73,3 +73,21 @@ header {
     width: 12vh;    
     margin-top: 1.5vh;
 }
+
+
+/*** Main Section ***/
+.main-section-heading {
+    margin-left: 5vw;
+}
+
+.main-section-message {
+    width: 50%;
+    margin: 50px auto;
+}
+
+#video-resin-art {
+    width: 50%;
+
+    display: block;
+    margin: auto;
+}
