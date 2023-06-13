@@ -91,3 +91,14 @@ header {
     display: block;
     margin: auto;
 }
+
+
+/*** Footer ***/
+footer {
+    width: 100%;
+    height: 3vh;
+    text-align: center;
+    padding: 1vh;
+    background: #274799;
+    margin-top: 5vh;
+}
