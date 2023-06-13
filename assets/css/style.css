@@ -15,6 +15,7 @@ body {
     background-color: #e4e4e4;
 }
 
+
 /*** Headings ***/
 h1,
 h2,
@@ -24,3 +25,33 @@ h3 {
 }
 
 
+/*** Hero Image And Page Title ***/
+header {
+    /* fixate header at top of the page */
+    /* position: sticky;
+    top: 0; */
+    
+    margin-bottom: 10vh;
+}
+
+#hero-image {
+    height: 25vh;
+    width: 100%;
+    background: no-repeat center center url("/assets/images/hero-image.png");
+    background-color: #3c28ea;
+    background-size: cover;
+
+    text-align: center;
+}
+
+#page-title {
+    color: #e4e4e4;
+    font-size: 5.5vh;
+    padding-top: 2vh;
+}
+
+#page-subtitle {
+    color: #e4e4e4;
+    font-size: 3.5vh;
+    padding-top: 1vh;
+}
