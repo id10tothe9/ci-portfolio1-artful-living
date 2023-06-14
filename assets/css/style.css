@@ -13,7 +13,7 @@ body {
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 450;
     background-color: #e4e4e4;
-    background-image: linear-gradient(to bottom left, #77b4fc, #274799);
+    /* background-image: linear-gradient(to bottom left, #77b4fc, #274799); */
 }
 
 
@@ -70,9 +70,10 @@ header {
     display: inline-block;
     font-size: 2.5vh;
     font-family: 'Libre Baskerville', serif;
-    background-color: #bed0ff;
+    background-color: #e4e4e4;
     width: 12vh;    
     margin-top: 1.5vh;
+    border-radius: 0.75vw;
 }
 
 
@@ -135,9 +136,11 @@ header {
 form {
     max-width: 50vw;
     padding: 3vw;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.4);
     margin: auto;
     font-size: 2.5vh;
+    color: #e4e4e4;
+    border-radius: 0.75vw;
 }
 
 form .form-heading {
@@ -148,7 +151,7 @@ form .form-heading {
     width: 100%;
     margin-bottom: 2vh;
     font-size: 2.5vh;
-
+    background-color: #e4e4e4;
 }
 
 .submit-button {
@@ -179,12 +182,12 @@ footer {
     text-align: center;
     padding: 1vh;
     background: #274799;
-    margin-top: 5vh;
+    margin-top: 10vh;
 }
 
 footer i {
     margin: 0.5vw;
-    font-size: 4vh;
+    font-size: 5vh;
     color: #e4e4e4;
 }
 
