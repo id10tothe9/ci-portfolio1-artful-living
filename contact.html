@@ -44,9 +44,33 @@
                 Welcome to my website! Welcome to my website! Welcome to my website! Welcome to my website! Welcome to my
                 website! Welcome to my website! Welcome to my website! Welcome to my website!
             </p>
-            <form action="https://formdump.codeinstitute.net">
+            <form action="https://formdump.codeinstitute.net" method="post">
+                <h4>Send Me A Request</h4>
+                
+                <label for="fname">First Name:</label>
+                <input class="input-box" id="fname" type="text" name="first-name" required>
 
+                <label for="lname">Last Name:</label>
+                <input class="input-box" id="lname" type="text" name="last-name" required>
+
+                <label for="email">Email Address:</label>
+                <input class="input-box" id="email" type="email" name="email" required>
+
+                <!-- a select box with place holder, source: https://stackoverflow.com/a/8442831 -->
+                <label for="item-category-dropdown">Category Of Interest:</label>
+                <select id="item-category-dropdown" name="item-category-dropdown" required>
+                    <option value="" disabled selected hidden>Please choose a category</option>
+                    <option value="earrings">Earrings</option>
+                    <option value="paintings">Paintings</option>
+                    <option value="special-requests">Special Requests</option>
+                    <option value="all-of-them">All Of Them</option>
+                </select>
+
+                <textarea class="input-box" name="contact-message" id="contact-message" cols="50" rows="10" placeholder="Let me know what colors and forms inspire you, if you have a special request I might be able to make it for you :)"></textarea>
+
+                <input class="submit-button" type="submit" value="Submit">
             </form>
+            
         </article>
     </section>
 
