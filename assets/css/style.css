@@ -142,7 +142,7 @@ header {
 
 
 /* ----------------------------------------------------------- */
-/*** Contact Form ***/
+/*** Contact Form Section ***/
 form {
     max-width: 50vw;
     padding: 3vw;
@@ -180,6 +180,9 @@ form option {
     color: black;
 }
 
+
+/* ----------------------------------------------------------- */
+/*** Static Address Section ***/
 
 
 
