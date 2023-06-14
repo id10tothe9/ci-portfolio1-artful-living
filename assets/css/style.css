@@ -39,7 +39,7 @@ header {
 }
 
 #hero-image {
-    height: 25vh;
+    height: 26vh;
     width: 100%;
     background: no-repeat center center url("../images/hero-image.png");
     background-color: #3c28ea;
@@ -49,13 +49,13 @@ header {
 
 #page-title {
     color: #e4e4e4;
-    font-size: 5.5vh;
+    font-size: 5vh;
     padding-top: 2vh;
 }
 
 #page-subtitle {
     color: #e4e4e4;
-    font-size: 3.5vh;
+    font-size: 3vh;
 }
 
 
@@ -70,10 +70,11 @@ header {
 #nav-bar li {
     display: inline-block;
     font-family: 'Libre Baskerville', serif;
+    font-size: 2vh;
     background-color: #e4e4e4;
     width: 12vh;    
     /* margin-top: 1.75vh; */
-    margin: 1.75vh 0.5vw 0 0.5vw;
+    margin: 3vh 0.5vw 0 0.5vw;
     border-radius: 0.75vw;
     padding-bottom: 0.75vh;
     padding-top: 0.75vh;
