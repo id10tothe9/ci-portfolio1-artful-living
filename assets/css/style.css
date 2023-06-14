@@ -150,6 +150,7 @@ form {
     margin: auto;
     color: #e4e4e4;
     border-radius: 0.75vw;
+    margin-bottom: 10vh;
 }
 
 form .form-heading {
@@ -190,6 +191,7 @@ form option {
     margin: auto;
     color: #e4e4e4;
     border-radius: 0.75vw;
+    margin-bottom: 10vh;
 }
 
 /* .address-content {
@@ -200,13 +202,13 @@ form option {
 /* #address .heading {
     display: inline-block;
     clear: right;
-}
+} */
 
 #address p {
-    padding-bottom: 1vh;
-    display: inline-block;
-    clear: left;
-} */
+    padding-bottom: 2vh;
+    /* display: inline-block;
+    clear: left; */
+}
 
 
 
@@ -217,7 +219,6 @@ footer {
     text-align: center;
     padding: 1vh;
     background: #274799;
-    margin-top: 10vh;
 }
 
 footer i {
