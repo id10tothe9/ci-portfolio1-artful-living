@@ -99,13 +99,13 @@ header {
 }
 
 .page-message {
-    width: 50%;
+    width: 70%;
     margin: 0 auto 10vh auto;
     text-align: center;
 }
 
 #video-resin-art {
-    width: 50%;
+    width: 70%;
 
     display: block;
     margin: auto;
@@ -148,7 +148,7 @@ header {
 /* ----------------------------------------------------------- */
 /*** Contact Form Section ***/
 form {
-    max-width: 50vw;
+    width: 70vw;
     padding: 3vw;
     background-color: rgba(60, 60, 60, 0.4);
     margin: auto;
@@ -240,12 +240,20 @@ footer .separator {
 /* ----------------------------------------------------------- */
 /*** Responsive Design ***/
 @media screen and (min-width: 800px) {
+    .page-message {
+        width: 60%;
+    }
+    
+    #video-resin-art {
+        width: 60%;
+    }
+
     .images-collage {
         column-count: 3;
     }
 
     form {
-        max-width: 40vw;
+        width: 60vw;
         padding: 2vw;
     }
 
@@ -257,7 +265,19 @@ footer .separator {
 
 
 @media screen and (min-width: 950px) {
+    .page-message {
+        width: 50%;
+    }
+    
+    #video-resin-art {
+        width: 50%;
+    }
+
     .images-collage {
         column-count: 4;
+    }
+
+    form {
+        width: 50%;
     }
 }
