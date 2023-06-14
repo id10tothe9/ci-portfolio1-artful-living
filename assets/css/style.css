@@ -41,7 +41,7 @@ header {
 #hero-image {
     height: 25vh;
     width: 100%;
-    background: no-repeat center center url("/assets/images/hero-image.png");
+    background: no-repeat center center url("../images/hero-image.png");
     background-color: #3c28ea;
     background-size: cover;
     text-align: center;
@@ -110,6 +110,9 @@ header {
     margin: auto;
 }
 
+#about-me {
+    margin-bottom: 10vh;
+}
 
 /* ----------------------------------------------------------- */
 /*** Gallery Sections ***/
