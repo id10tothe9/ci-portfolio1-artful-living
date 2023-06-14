@@ -12,6 +12,7 @@
 body {
     font-family: 'Source Sans 3', sans-serif;
     font-weight: 450;
+    font-size: 2.5vh;
     background-color: #e4e4e4;
     background-image: linear-gradient(to bottom left, #77b4fc, #274799);
 }
@@ -68,7 +69,6 @@ header {
 
 #nav-bar li {
     display: inline-block;
-    font-size: 2.5vh;
     font-family: 'Libre Baskerville', serif;
     background-color: #e4e4e4;
     width: 12vh;    
@@ -101,7 +101,6 @@ header {
     width: 50%;
     margin: 0 auto 10vh auto;
     text-align: center;
-    font-size: 2.5vh;
 }
 
 #video-resin-art {
@@ -138,7 +137,6 @@ header {
     padding-bottom: 0.5vh;
     border: 1px solid #616365;
     background-color: rgba(11, 11, 219, 0.429);
-    font-size: 2.5vh;
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -150,7 +148,6 @@ form {
     padding: 3vw;
     background-color: rgba(60, 60, 60, 0.4);
     margin: auto;
-    font-size: 2.5vh;
     color: #e4e4e4;
     border-radius: 0.75vw;
 }
@@ -170,7 +167,6 @@ form .form-heading {
     padding: 1vw;
     display: block;
     margin: auto;
-    font-size: 2.5vh;
 }
 
 
