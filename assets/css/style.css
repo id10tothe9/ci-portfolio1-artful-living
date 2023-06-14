@@ -126,6 +126,44 @@ header {
 
 
 /* ----------------------------------------------------------- */
+/*** Contact Form ***/
+form {
+    max-width: 50vw;
+    padding: 3vw;
+    background-color: rgba(60, 60, 60, 0.6);
+    margin: auto;
+}
+
+form .form-heading {
+    margin-bottom: 2vh;
+}
+
+.input-box {
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.submit-button {
+    padding: 1vw;
+    display: block;
+    margin: auto;
+}
+
+
+
+/* styling a select box with place holder, source: https://stackoverflow.com/a/29806043 */
+form select:required:invalid {
+    color: grey;
+}
+
+form option {
+    color: black;
+}
+
+
+
+
+/* ----------------------------------------------------------- */
 /*** Footer ***/
 footer {
     width: 100%;
