@@ -183,6 +183,30 @@ form option {
 
 /* ----------------------------------------------------------- */
 /*** Static Address Section ***/
+#address {
+    max-width: 50vw;
+    padding: 3vw;
+    background-color: rgba(60, 60, 60, 0.4);
+    margin: auto;
+    color: #e4e4e4;
+    border-radius: 0.75vw;
+}
+
+/* .address-content {
+    position: relative;
+    left: 10%;
+} */
+
+/* #address .heading {
+    display: inline-block;
+    clear: right;
+}
+
+#address p {
+    padding-bottom: 1vh;
+    display: inline-block;
+    clear: left;
+} */
 
 
 
@@ -216,6 +240,11 @@ footer .separator {
     }
 
     form {
+        max-width: 40vw;
+        padding: 2vw;
+    }
+
+    #address {
         max-width: 40vw;
         padding: 2vw;
     }
