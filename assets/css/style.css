@@ -72,8 +72,20 @@ header {
     font-family: 'Libre Baskerville', serif;
     background-color: #e4e4e4;
     width: 12vh;    
-    margin-top: 1.5vh;
+    /* margin-top: 1.75vh; */
+    margin: 1.75vh 0.5vw 0 0.5vw;
     border-radius: 0.75vw;
+    padding-bottom: 0.75vh;
+    padding-top: 0.75vh;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar a.active {
+    border-bottom: 2px solid black;
 }
 
 
