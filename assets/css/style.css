@@ -191,6 +191,11 @@ footer .separator {
     .images-collage {
         column-count: 3;
     }
+
+    form {
+        max-width: 40vw;
+        padding: 2vw;
+    }
 }
 
 
