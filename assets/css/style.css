@@ -101,7 +101,7 @@ header {
 .page-message {
     width: 70%;
     margin: 0 auto 10vh auto;
-    text-align: center;
+    text-align: justify;
 }
 
 #video-resin-art {
