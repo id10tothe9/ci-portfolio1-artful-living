@@ -101,8 +101,8 @@ The website helps both the artist and the visitor to achieve their goals while e
 
 ## Credits
 ### Content & Meida
-- AI's help in writing text [ClickUp](www.clickup.com)
-- AI's help in creating hero image DALL-E
+- AI's help in writing text ([ClickUp](www.clickup.com)).
+- AI's help in creating hero image (DALL-E).
 
 ### Knowledge
 - The knowledge I gained from Code Institute course.
