@@ -9,10 +9,15 @@ Visit the deployed website [here](https://id10tothe9.github.io/ci-portfolio1-art
 
 ## User Experience Design
 **Objective:** Introduce the artist and showcase her work, while providing a means for potential clients to inquire about her services. Display a gallery of her work, and ensure the website is visually appealing.
+
 **Scope:** An 'About Me' section to introduce the artist, a gallery showcasing the artwork, contact form for inquiries and website aesthetics.
+
 **Structure:** A simple three page structure with easy navigation, accompanying the visitor from the introduction on the homepage to the gallery and then to the contact form.
+
 **Skeleton:** The interface design facilitates simplicity and purpose. The home page introduces the visitor to the artist and her work, the gallery showcases the artwork in two separate collections that are easy to look at without clutter and the contact page presents the available means for contact in separate clear sections.
+
 Navigation is intuitive and available through a navigation bar at the top of the page.
+
 The layout of the pages were done with pen and paper to sketch the elements and the look of the pages, while commenting on the features and functionalities of the elements to be implemented on the sides of the sketches.
 
 ![A wireframe for the home page done with pen and paper](/assets/images/screenshots/home.png)
@@ -96,8 +101,7 @@ The website helps both the artist and the visitor to achieve their goals while e
 
 ## Validator Testing
 - The W3C Markup Validator returned no errors.
-- The W3C CSS Validator returned no errors.
-
+- The W3C CSS Validator returned no errors
 
 ## Credits
 ### Content & Meida
